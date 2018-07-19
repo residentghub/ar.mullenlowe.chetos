@@ -15,9 +15,9 @@
     "phonegap"
   ],
   "preferGlobal": "false",
-  "main": "./lib/index.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node ./lib/index.js",
+    "start": "node index.js",
     "test": "jasmine && eslint .",
     "cover": "istanbul cover --print detail -x **/spec/** jasmine"
   },
