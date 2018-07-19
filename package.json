@@ -17,7 +17,7 @@
   "preferGlobal": "false",
   "main": "./lib/index.js",
   "scripts": {
-    "start": "node ./lib/index.js"
+    "start": "node ./lib/index.js",
     "test": "jasmine && eslint .",
     "cover": "istanbul cover --print detail -x **/spec/** jasmine"
   },
