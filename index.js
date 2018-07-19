@@ -1,9 +1,6 @@
-var connect = require('connect'),
-phonegap = require('connect-phonegap'),
-app = connect();
-
+var phonegap = require('connect-phonegap'),
+    express = require('express'),
+    app = express();
 
 app.use(phonegap());
-
-var port = process.env.PORT || 3000;
-app.listen(port);
+app.listen(3000);

@@ -37,7 +37,8 @@
     "shelljs": "0.7.5",
     "socket.io": "1.5.0",
     "useragent": "2.1.9",
-    "walkdir": "0.0.11"
+    "walkdir": "0.0.11",
+    "express": "^4.16.3"
   },
   "devDependencies": {
     "chdir": "0.0.0",
