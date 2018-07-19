@@ -1,6 +1,6 @@
 var phonegap = require('connect-phonegap'),
-    express = require('express'),
-    app = express();
+    connect = require('connect'),
+    app = connect();
 
 app.use(phonegap());
 app.listen(3000);
